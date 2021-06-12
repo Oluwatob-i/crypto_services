@@ -110,7 +110,9 @@ export default function Home() {
                   <li>Smart contract development</li>
                   <li>Smart contract deployment
                     <li style={{textIndent: 20}}>Ethereum Blockchain</li>
+                    <li  style={{textIndent: 20}}>Polygon</li>
                     <li  style={{textIndent: 20}}>Binance Smart Chain</li>
+                  
                   </li>
                   
               </div>
