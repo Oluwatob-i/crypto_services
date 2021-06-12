@@ -146,6 +146,28 @@
     color: hsl(230, 100%, 95%);
 }
 
+.payment-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: #000;
+    opacity: .5;
+    z-index: 20;
+}
+
+.payment > form {
+    position: fixed;
+    z-index: 21;
+    width: 400px;
+    height: 512px;
+    background: #fff;
+    opacity: 1;
+    border-radius: 8px;
+}
 @media screen and (min-width: 768px) {
     .home{
         width: 100%;

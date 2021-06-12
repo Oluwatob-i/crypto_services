@@ -3,12 +3,16 @@ import '../styles/home.css'
 
 
 function MyApp({ Component, pageProps }) {
-  return (
+  if (typeof window !== 'undefined') {
+    return (
+      <Component 
+       {...pageProps} 
+     /> 
+ )
+} else {
+  return ''
+} 
   
-       <Component 
-        {...pageProps} 
-      /> 
-  )
 }
 
 export default MyApp

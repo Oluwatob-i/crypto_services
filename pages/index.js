@@ -20,9 +20,7 @@ export default function Home() {
   }
   return (
     <div className='home'>
-      <div style={{height: '0vh'}}>
-     
-      </div>
+    
       <div className='header'>
        { <Particles
           options={{
@@ -122,7 +120,7 @@ export default function Home() {
                   <h3>Intermediate plan</h3>
                   <li>Basic plan</li>
                   <li>Telegram Bot</li>
-                  <li>Listing on one Dex</li>
+                  <li>Listing on one Decentralized exchange</li>
               </div>
               <div className='info-card'>
                   <img src='/eth.jpeg'/>
@@ -130,15 +128,15 @@ export default function Home() {
                   <h3>Premium plan</h3>
                   <li>Intermediate plan</li>
                   <li style={{textWrap: 'wrap'}}>Two custom smart contract features</li>
-                  <li>Listing on three Dex</li>
+                  <li>Listing on three Decentralized exchanges</li>
               </div>
               <div className='info-card'>
                   <img src='/eth.jpeg'/>
                   <p className='price'>$20000</p>
                   <h3>Diamond plan</h3>
                   <li>Premium plan</li>
-                  <li>Decentralized app</li>
-                  
+                  <li>Decentralized app powered by the token / coin</li>
+                  <li>Expert insights</li>
               </div>
         </div>
        
@@ -171,6 +169,9 @@ export default function Home() {
 
         <p>powered by dotlabs</p>
       </div>
+      <div className='payment-overlay' style={{display: 'none',height: document.documentElement.scrollHeight}}></div>
+      <div className=''>
+      </div> 
     </div>
   )
 }
